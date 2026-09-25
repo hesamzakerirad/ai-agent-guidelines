@@ -24,54 +24,38 @@ Keep the file short. Agents follow a focused list of rules more reliably than a 
 ````markdown
 ## Tasks
 
-* `TASKS.md` in the project root holds the task list. The file is not tracked by Git.
-* Write the task in `TASKS.md` before starting the work.
-* Add new tasks to the "Open" section using `[ ]`.
-* Change the task to `[~]` immediately before starting work.
-* When the task is complete, move it to the "Done" section and mark it `[x]`.
-* Do not mark a task as done until the requested work is complete and verified.
-* Add newly discovered work to the "Open" section instead of doing it silently.
-* If newly discovered work is required to complete the current task, add it as a subtask of the current task.
-* Do not modify files or behavior that are unrelated to the current task.
+- `TASKS.md` in the project root holds the task list. The file is not tracked by git.
+- Write the task in `TASKS.md` before you start the work.
+- Mark the task `[~]` when you start it, and move it to the "Done" section when it is complete.
+- Add any new work you find to the "Open" section instead of doing it silently.
 
 ## Notes
 
-* `notes/` in the project root holds plans, research, decisions, and notes for future work. The folder is not tracked by Git.
-* Use one Markdown file per topic.
-* Do not put project notes anywhere else.
+- `notes/` in the project root holds plans, research, and notes for future work. The folder is not tracked by git.
+- Put anything that is not a task and not documentation in `notes/`, one Markdown file per topic.
+- Do not put notes anywhere else in the project.
 
 ## Documentation
 
-* Write code comments and technical documentation in ASD-STE100 Simplified Technical English where practical.
-* Update `README.md` when new behavior is added or existing behavior is changed.
-* Keep the setup and usage instructions in `README.md` up to date.
-* Do not document behavior that does not exist.
+- Write code documentation in ASD-STE100.
+- Update `README.md` when new behavior is added or an old one is changed. Keep the setup process up to date.
 
 ## Writing
 
-* Write page content and blog posts in a clear, natural, human tone.
-* Avoid generic AI phrasing, filler, unnecessary repetition, and exaggerated claims.
-* Do not mention AI unless the content specifically requires it.
-* Use American English.
-* Always use Chicago Manual of Style title case for page titles.
-* Do not use the `—` character in sentences.
-
-### Blog Posts
-
-* Optimize content for search intent, semantic relevance, readability, useful headings, natural keyword usage, and appropriate metadata.
-* Do not use keyword stuffing or sacrifice readability for SEO.
-* Always end the post with a `Summary` section that summarizes the entire post in clear language.
+- Write page content and blog posts in a clear, humanized tone. No trace of AI tone.
+- Do not use British English. Use American English.
+- Always use Chicago Manual of Style title case for page titles.
+- Do not use the "—" character mid sentence.
+- When writing a blog post:
+  - Make sure the content is SEO optimized.
+  - Always end the post with a "Summary" section that summarizes the entire post in clear language.
 
 ## Committing
 
-When making a Git commit:
-
-* Use a concise imperative commit subject.
-* Follow conventional commit-writing practices used by the project.
-* Do not add a commit body.
-* Do not include your name or the agent name in the commit message.
-* Do not add a `Co-authored-by` trailer.
-
+- When making a git commit:
+  - Leave your name out of the commit.
+  - Do not provide a description.
+  - Follow commit writing conventions.
 ````
 
 ## Notes on the Rules
